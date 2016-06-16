@@ -1,8 +1,6 @@
 # Waran Cache
-TODO:
-- automatic type detection (e.g. array, json, raw, etc.)
 
-# Demo
+## Demo
 ```php
 use Waran\Cache;
 
@@ -13,7 +11,7 @@ if(!$cache->read('cache_name'))
 }
 
 ```
-TODO: travis-ci, scrutinizer, packaist images...
+
 
 ## About
 Waran Cache is a simple cache class that saves your data in individual files.
@@ -23,6 +21,11 @@ Waran Cache is a simple cache class that saves your data in individual files.
 ```bash
 composer require warannl/cache 1.*
 ```
+
+
+## TODO
+- automatic type detection (e.g. array, json, raw, etc.)
+- travis-ci, scrutinizer, packaist images...
 
 
 ### License
