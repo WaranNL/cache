@@ -19,7 +19,7 @@ Waran Cache is a simple cache class that saves your data in individual files.
 
 ## Install
 ```bash
-composer require warannl/cache 1.*
+composer require brysemeijer/cache 1.0.x-dev
 ```
 
 
