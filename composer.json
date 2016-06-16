@@ -1,0 +1,30 @@
+{
+    "name": "brysemeijer/cache",
+    "description": "Amazon API",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryse Meijer",
+            "email": "me@bryse.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Waran\\": "src",
+            "Waran\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "source": {
+        "type": "git",
+        "url": "git@bitbucket.org:brysemeijer/cache.git",
+        "reference": "1.0"
+    }
+}
